@@ -19,7 +19,6 @@ body {
   height: 6.25rem;
 }
 .main-card {
-  text-align: center;
   width:49%;
   margin: 1.875rem auto 3.125rem auto;
   background: #fff;
@@ -28,9 +27,9 @@ body {
   box-shadow: 1.875rem 1.875rem 1.875rem rgb(138, 137, 137);
 }
 .main-card h1 {
-  text-align: center;
+  margin-bottom:1rem;
   color: #f5ba13;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-family: "Piedra", cursive;
   text-shadow: 0.25rem 0.125rem rgb(138, 137, 137);
 }
