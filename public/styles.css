@@ -19,7 +19,7 @@ body {
   height: 100px;
 }
 .main-card {
-  position: relative;
+  text-align: center;
   width:49%;
   margin: 30px auto 50px auto;
   background: #fff;
@@ -35,9 +35,6 @@ body {
   text-shadow: 4px 2px rgb(138, 137, 137);
 }
 .main-card .button {
-  position: absolute;
-  right: 20px;
-  bottom: -20px;
   background: #f5ba13;
   color: #fff;
   border: none;
@@ -48,14 +45,18 @@ body {
   padding: 7px;
   font-size: 1.6rem;
   text-shadow: 4px 2px rgb(138, 137, 137);
+  margin: 20px;
 }
 .main-card .button:hover{
   background-color: #f0a500;
-  font-size: 2rem;
-  transform: rotate(-5deg);
 }
 .main-card img{
   min-width: 100%;
+}
+.main-card .reason-block{
+  font-size: 2rem;
+  border: solid 2px;
+  color:#f5ba13;
 }
 .other-options button {
   position: absolute;
