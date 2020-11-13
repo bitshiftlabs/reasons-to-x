@@ -1,14 +1,16 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 
 function OtherOptions(props) {
   return (
-    <div className="other-options">
-      <h4> {props.id}</h4>
+    <Box className="other-options">
+      <Typography>{props.id}</Typography>
       <Button variant="contained" color="primary">
       +
       </Button>
-    </div>
+    </Box>
   );
 }
 
