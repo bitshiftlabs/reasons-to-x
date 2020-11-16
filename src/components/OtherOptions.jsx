@@ -1,14 +1,14 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+import {Button,Typography,Box} from "@material-ui/core";
 
 function OtherOptions(props) {
   return (
-    <div className="other-options">
-      <h4> {props.id}</h4>
-      <Button variant="contained" color="primary">
+    <Box className="other-options">
+      <Typography variant="h4">{props.id}</Typography>
+      <Button variant="contained" >
       +
       </Button>
-    </div>
+    </Box>
   );
 }
 
