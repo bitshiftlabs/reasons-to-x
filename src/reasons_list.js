@@ -1,3 +1,26 @@
+import ac from "./images/ac.webp";
+import bicycle from "./images/bicycle.webp";
+import bunk from "./images/bunk.webp";
+import cancelparty from "./images/cancelparty.webp";
+import canceltrip from "./images/canceltrip.webp";
+import car from "./images/car.webp";
+import cat from "./images/cat.webp";
+import dog from "./images/dog.webp";
+import eathealthy from "./images/eathealthy.webp";
+import exercise from "./images/exercise.webp";
+import familyfunction from "./images/familyfunction.webp";
+import friend from "./images/friend.webp";
+import homework from "./images/homework.webp";
+import junk from "./images/junk.webp";
+import livelife from "./images/livelife.webp";
+import mask from "./images/mask.webp";
+import outdoor from "./images/outdoor.webp";
+import party from "./images/party.webp";
+import study from "./images/study.webp";
+import sunday from "./images/sunday.webp";
+import tv from "./images/tv.webp";
+import weekend from "./images/weekend.webp";
+
 const Reasons = [
   {
     key:1,
@@ -13,7 +36,7 @@ const Reasons = [
       "I am quarantined",
       "I am tired.",
       "I drank too much last night"
-    ],img:process.env.PUBLIC_URL+"/images/cancelparty.webp"
+    ],img:cancelparty
   },
   {
     key:2,
@@ -29,7 +52,7 @@ const Reasons = [
       "Sorry,I am ill",
       "Sorry,my dad is ill",
       "I drank too much last night"
-    ],img:process.env.PUBLIC_URL+"/images/canceltrip.webp"
+    ],img:canceltrip
   },
   {
     key:3,
@@ -41,7 +64,7 @@ const Reasons = [
       "I have scored full marks in my exam",
       "My exams are finished",
       "I have nothing to do"
-    ],img:process.env.PUBLIC_URL+"/images/party.webp"
+    ],img:party
   },
   {
     key:4,
@@ -56,7 +79,7 @@ const Reasons = [
       "Sorry, My mom is ill",
       "Sorry,I am ill",
       "Sorry,my dad is ill"
-    ],img:process.env.PUBLIC_URL+"/images/familyfunction.webp"
+    ],img:familyfunction
   },
   {
     key:5,
@@ -67,7 +90,7 @@ const Reasons = [
       "Depreciation Is Taken Care Of",
       "You Can Upgrade In Life",
       "Buying A Used Car Saves Money"
-    ],img:process.env.PUBLIC_URL+"/images/car.webp"
+    ],img:car
   },
   {
     key:6,
@@ -78,7 +101,7 @@ const Reasons = [
       "Cats are low-maintenance and independent",
       "Cats are an eco-friendly pet choice",
       "Cats can help reduce stress"
-    ],img:process.env.PUBLIC_URL+"/images/cat.webp"
+    ],img:cat
   },
   {
     key:7,
@@ -94,7 +117,7 @@ const Reasons = [
       "Dogs give us confidence",
       "Dogs make Us Genuinely Happy",
       "Dogs are faithful and responsible"
-    ],img:process.env.PUBLIC_URL+"/images/dog.webp"
+    ],img:dog
   },
   {
     key:8,
@@ -114,7 +137,7 @@ const Reasons = [
       "I am suffering from fever",
       "I have a family function",
       "I am quarantined"
-    ],img:process.env.PUBLIC_URL+"/images/bunk.webp"
+    ],img:bunk
   },
   {
     key:9,
@@ -126,7 +149,7 @@ const Reasons = [
       "Had headache",
       "forgot copy at home",
       "I didn't get the topics you taught in last lecture"
-    ],img:process.env.PUBLIC_URL+"/images/homework.webp"
+    ],img:homework
   },
   {
     key:10,
@@ -143,7 +166,7 @@ const Reasons = [
       "To live is to discover something about ourselves of which we were not aware. ",
       "To live is to look at ourselves in the mirror and discover a message of love in our own eyes.",
       "To live is to allow ourselves to fall in love—with someone, with something, or with life itself. "
-    ],img:process.env.PUBLIC_URL+"/images/livelife.webp"
+    ],img:livelife
   },
   {
     key:11,
@@ -159,7 +182,7 @@ const Reasons = [
       "Planning things for next week",
       "To devote time for responding to pending Emails",
       "to Work without disturbance"
-    ],img:process.env.PUBLIC_URL+"/images/sunday.webp"
+    ],img:sunday
   },
   {
     key:12,
@@ -174,7 +197,7 @@ const Reasons = [
       "Change your routine",
       "Get your devices a break at least on weekends",
       "Don’t habituate to oversleeping"
-    ],img:process.env.PUBLIC_URL+"/images/weekend.webp"
+    ],img:weekend
   },
   {
     key:13,
@@ -191,7 +214,7 @@ const Reasons = [
       "Reduces the risk of arthritis.",
       "Brings about better sleep.",
       " Improves mood. "
-    ],img:process.env.PUBLIC_URL+"/images/exercise.webp"
+    ],img:exercise
   },
   {
     key:14,
@@ -207,7 +230,7 @@ const Reasons = [
       "Healthy Eating Positively Affects Your Mood",
       "Increases Focus",
       "Healthy Diets May Lengthen Your Life"
-    ],img:process.env.PUBLIC_URL+"/images/eathealthy.webp"
+    ],img:eathealthy
   },
   {
     key:15,
@@ -224,7 +247,7 @@ const Reasons = [
       "It can damage your liver",
       "It can cause type 2 diabetes",
       "It increases your risk of cancer"
-    ],img:process.env.PUBLIC_URL+"/images/junk.webp"
+    ],img:junk
   },
   {
     key:16,
@@ -240,7 +263,7 @@ const Reasons = [
       "Good grades will also allow you access to more courses, and your Matric 80% for a subject might just be the differentiating factor between you and another applicant for a job! ",
       "Studying now allows you to become a better version of yourself in your future.",
       "Achievement generates self-confidence! "
-    ],img:process.env.PUBLIC_URL+"/images/study.webp"
+    ],img:study
   },
   {
     key:17,
@@ -257,8 +280,8 @@ const Reasons = [
       "Many note that they wear their masks particularly to protect the most vulnerable people in our communities, including the elderly and those with conditions that put them at higher risk.",
       "They reduce viral transmission (if worn correctly).",
       "They prevent asymptomatic spread."
-    ],img:process.env.PUBLIC_URL+"/images/mask.webp"
-  },
+    ],img:mask
+    },
   {
     key:18,
     id: "avoid ac",
@@ -271,7 +294,7 @@ const Reasons = [
       "AC removes water i.e. humidity from indoor air and robs the outer layer of the epidermis of skin. ",
       "When ACs remove the water or humidity content from a room, skin starts shrivelling. Skin also becomes prone to developing creases and wrinkles.",
       "Sudden shift from one extreme climate to another extreme is very stressful for the body."
-    ],img:process.env.PUBLIC_URL+"/images/ac.webp"
+    ],img:ac
   },
   {
     key:19,
@@ -288,7 +311,7 @@ const Reasons = [
       "Help out the government of your country",
       "See the global local",
       "Get to actually know the place you live"
-    ],img:process.env.PUBLIC_URL+"/images/bicycle.webp"
+    ],img:bicycle
   },
   {
     key:20,
@@ -302,7 +325,7 @@ const Reasons = [
       "Stay Current",
       "Get Cultured.",
       "Mental Health."
-    ],img:process.env.PUBLIC_URL+"/images/tv.webp"
+    ],img:tv
   },
   {
     key:21,
@@ -316,7 +339,7 @@ const Reasons = [
       "more naturally-attuned sleep rhythms",
       "enhanced opportunities to learn social skills, overcome fears, and develop a lifelong connection with nature.",
       " it's possible that outdoor play could help reduce the incidence of behavior problems, and help fight obesity."
-    ],img:process.env.PUBLIC_URL+"/images/outdoor.webp"
+    ],img:outdoor
   },
   {
     key:22,
@@ -333,7 +356,7 @@ const Reasons = [
       "Introduce you to more people.",
       "Bring more joy to your life.",
       "The research has been done and the findings are clear, friendships enhance our lives."
-    ],img:process.env.PUBLIC_URL+"/images/friend.webp"
+    ],img:friend
   }
 ]
 

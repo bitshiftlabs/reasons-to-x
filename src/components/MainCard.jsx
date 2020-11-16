@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import {Button, Typography, Box} from "@material-ui/core";
 
 function MainCard(props) {
-  const [reason,setReason]=useState(<img src={props.randomItem.img} alt="loading..." />);
+  const [reason,setReason]=useState(<img src={props.randomItem.img} alt="img" />);
   function showReason(){
     setReason((props.randomItem.list)[Math.floor(Math.random() *(props.randomItem.list).length)]);
   }
