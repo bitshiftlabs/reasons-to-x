@@ -1,17 +1,43 @@
 {
   "files": {
-    "main.js": "/reasons-to-x/static/js/main.f73c7f82.chunk.js",
-    "main.js.map": "/reasons-to-x/static/js/main.f73c7f82.chunk.js.map",
+    "main.css": "/reasons-to-x/static/css/main.0306ee9c.chunk.css",
+    "main.js": "/reasons-to-x/static/js/main.cebe3db9.chunk.js",
+    "main.js.map": "/reasons-to-x/static/js/main.cebe3db9.chunk.js.map",
     "runtime-main.js": "/reasons-to-x/static/js/runtime-main.3aed1eaa.js",
     "runtime-main.js.map": "/reasons-to-x/static/js/runtime-main.3aed1eaa.js.map",
-    "static/js/2.9b2bfaa8.chunk.js": "/reasons-to-x/static/js/2.9b2bfaa8.chunk.js",
-    "static/js/2.9b2bfaa8.chunk.js.map": "/reasons-to-x/static/js/2.9b2bfaa8.chunk.js.map",
+    "static/js/2.247d93e3.chunk.js": "/reasons-to-x/static/js/2.247d93e3.chunk.js",
+    "static/js/2.247d93e3.chunk.js.map": "/reasons-to-x/static/js/2.247d93e3.chunk.js.map",
     "index.html": "/reasons-to-x/index.html",
-    "static/js/2.9b2bfaa8.chunk.js.LICENSE.txt": "/reasons-to-x/static/js/2.9b2bfaa8.chunk.js.LICENSE.txt"
+    "static/css/main.0306ee9c.chunk.css.map": "/reasons-to-x/static/css/main.0306ee9c.chunk.css.map",
+    "static/js/2.247d93e3.chunk.js.LICENSE.txt": "/reasons-to-x/static/js/2.247d93e3.chunk.js.LICENSE.txt",
+    "static/media/ac.93ce3b91.webp": "/reasons-to-x/static/media/ac.93ce3b91.webp",
+    "static/media/bicycle.d115baf3.webp": "/reasons-to-x/static/media/bicycle.d115baf3.webp",
+    "static/media/bunk.f09137c6.webp": "/reasons-to-x/static/media/bunk.f09137c6.webp",
+    "static/media/cancelparty.9cbd5553.webp": "/reasons-to-x/static/media/cancelparty.9cbd5553.webp",
+    "static/media/canceltrip.554f4de2.webp": "/reasons-to-x/static/media/canceltrip.554f4de2.webp",
+    "static/media/car.a1517604.webp": "/reasons-to-x/static/media/car.a1517604.webp",
+    "static/media/cat.48e0d318.webp": "/reasons-to-x/static/media/cat.48e0d318.webp",
+    "static/media/dog.278d3ea0.webp": "/reasons-to-x/static/media/dog.278d3ea0.webp",
+    "static/media/eathealthy.9a328288.webp": "/reasons-to-x/static/media/eathealthy.9a328288.webp",
+    "static/media/exercise.c9b465b5.webp": "/reasons-to-x/static/media/exercise.c9b465b5.webp",
+    "static/media/familyfunction.2a680fef.webp": "/reasons-to-x/static/media/familyfunction.2a680fef.webp",
+    "static/media/friend.b2590c96.webp": "/reasons-to-x/static/media/friend.b2590c96.webp",
+    "static/media/homework.3194bd75.webp": "/reasons-to-x/static/media/homework.3194bd75.webp",
+    "static/media/junk.f735d084.webp": "/reasons-to-x/static/media/junk.f735d084.webp",
+    "static/media/livelife.47adf0a0.webp": "/reasons-to-x/static/media/livelife.47adf0a0.webp",
+    "static/media/logo.e0bab009.png": "/reasons-to-x/static/media/logo.e0bab009.png",
+    "static/media/mask.fd3a341e.webp": "/reasons-to-x/static/media/mask.fd3a341e.webp",
+    "static/media/outdoor.8f869852.webp": "/reasons-to-x/static/media/outdoor.8f869852.webp",
+    "static/media/party.68b89dc4.webp": "/reasons-to-x/static/media/party.68b89dc4.webp",
+    "static/media/study.019ffe16.webp": "/reasons-to-x/static/media/study.019ffe16.webp",
+    "static/media/sunday.ef1dd0d2.webp": "/reasons-to-x/static/media/sunday.ef1dd0d2.webp",
+    "static/media/tv.3e7b42f5.webp": "/reasons-to-x/static/media/tv.3e7b42f5.webp",
+    "static/media/weekend.1ca37769.webp": "/reasons-to-x/static/media/weekend.1ca37769.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.3aed1eaa.js",
-    "static/js/2.9b2bfaa8.chunk.js",
-    "static/js/main.f73c7f82.chunk.js"
+    "static/js/2.247d93e3.chunk.js",
+    "static/css/main.0306ee9c.chunk.css",
+    "static/js/main.cebe3db9.chunk.js"
   ]
 }
