@@ -30,9 +30,9 @@ const Reasons = [
       "Sorry,I can't come",
       "Sorry,I have to attend another party",
       "Sorry,I have planned a trip today",
-      "Sorry, My mom is ill",
+      "Sorry, My grandma is ill",
       "Sorry,I am ill",
-      "Sorry,my dad is ill",
+      "Sorry :( ,my dad is ill",
       "I am quarantined",
       "I am tired.",
       "I drank too much last night"
@@ -42,16 +42,13 @@ const Reasons = [
     key:2,
     id: "cancel a trip",
     list: [
-      "Sorry,I'm not feeling well today",
+      "Sorry,I am not feeling well today",
       "I don't have money.",
       "I don't have my own vehicle",
-      "I am quarantined",
-      "I am tired.",
-      "Sorry,I have planned a trip today",
-      "Sorry, My mom is ill",
-      "Sorry,I am ill",
+      "Sorry :(,I have planned a trip today!",
+      "Sorry, My mother is ill",
+      "Sorry :(,I am ill",
       "Sorry,my dad is ill",
-      "I drank too much last night"
     ],img:canceltrip
   },
   {
@@ -60,7 +57,6 @@ const Reasons = [
     list: [
       "It's my choice",
       "As I have finished my work on tuesday",
-      "I am quarantined",
       "I have scored full marks in my exam",
       "My exams are finished",
       "I have nothing to do"
@@ -73,12 +69,11 @@ const Reasons = [
       "I have my exams on this date",
       "I have my tests on this date",
       "I am not feeling well",
-      "I am quarantined",
       "I am tired",
-      "Sorry,I have planned a trip today",
+      "Sorry,I have planned a trip today!!",
       "Sorry, My mom is ill",
-      "Sorry,I am ill",
-      "Sorry,my dad is ill"
+      "Sorry:(,I am ill",
+      "Sorry,my dad is ill :("
     ],img:familyfunction
   },
   {
@@ -132,11 +127,9 @@ const Reasons = [
       "Tell your professor your car got stolen,you have no way of getting to school. Say that you have to file a police report, even though the only cars getting jacked are the pixelated ones on your TV.",
       "If you tell your teacher you contracted lice over the weekend, they’ll actually be thankful you didn’t come to class. The email is quick and easy: “That’s the last time I’m buying a beanie from a thrift store…”",
       "MY ALARM NEVER WENT OFF",
-      "I drank too much last night",
       "I am ill",
       "I am suffering from fever",
       "I have a family function",
-      "I am quarantined"
     ],img:bunk
   },
   {

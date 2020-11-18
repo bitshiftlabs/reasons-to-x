@@ -1,17 +1,18 @@
 import React,{useState} from "react";
-import {Button, Typography, Box} from "@material-ui/core";
+import {Button, Typography, Box,} from "@material-ui/core";
 
 function MainCard(props) {
-  const [reason,setReason]=useState(<img src={props.randomItem.img} alt="img" />);
+  const [reason,setReason]=useState("");
   function showReason(){
-    setReason((props.randomItem.list)[Math.floor(Math.random() *(props.randomItem.list).length)]);
+    setReason(props.item.list[(Math.floor(Math.random() *(props.item.list).length))]);
   }
   return (
-    <Box align="center" className="main-card">
-      <Typography align="center" variant="h1">{props.randomItem.id.toUpperCase()}</Typography>
-      <Box className="reason-block">{reason}</Box>
-      <Button className="button" onClick={showReason}>Find a Reason!</Button>
-    </Box>
+      <Box align="center" className="main-card">
+      <Typography align="center" variant="h1">{props.item.id.toUpperCase()}</Typography>
+      <img src={props.item.img} alt="img" />
+      <Box className="reason-block">{(props.item.list).includes(reason)===false?"Click here ↓":reason}</Box>
+   <Button className="button" onClick={showReason}>Find a Reason!</Button>
+  </Box>
   );
 }
 export default MainCard;
