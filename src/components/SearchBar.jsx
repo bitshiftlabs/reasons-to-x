@@ -1,5 +1,8 @@
 import React,{useState,useRef,useEffect} from "react";
-import Box from "@material-ui/core/Box";
+import {Box, Typography, createMuiTheme, responsiveFontSizes} from "@material-ui/core";
+
+let theme=createMuiTheme();
+theme=responsiveFontSizes(theme);
 
 function SearchBar(props){
 
@@ -37,8 +40,8 @@ function SearchBar(props){
         setOpen(false)
     }
     return <Box className="dropdown">
+    <Typography theme={theme} variant="h4" gutterBottom><p className="searchBartext">Showing Reasons for-</p>
     <Box className="control" >
-    <p>Showing reasons for:-</p>
         <Box className="selected-value" >
             <input
                 ref={ref}
@@ -67,6 +70,7 @@ function SearchBar(props){
         </Box>))
     }
     </Box>
+    </Typography>
     </Box>
 }
 export default SearchBar;

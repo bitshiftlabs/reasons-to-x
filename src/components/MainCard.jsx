@@ -1,5 +1,8 @@
 import React,{useState} from "react";
-import {Button, Typography, Box,} from "@material-ui/core";
+import {Button, Typography, Card, createMuiTheme, responsiveFontSizes, CardMedia} from "@material-ui/core";
+
+let theme=createMuiTheme();
+theme=responsiveFontSizes(theme);
 
 function MainCard(props) {
   const [reason,setReason]=useState("");
@@ -7,12 +10,12 @@ function MainCard(props) {
     setReason(props.item.list[(Math.floor(Math.random() *(props.item.list).length))]);
   }
   return (
-      <Box align="center" className="main-card">
-      <Typography align="center" variant="h1">{props.item.id.toUpperCase()}</Typography>
-      <img src={props.item.img} alt="img" />
-      <Box className="reason-block">{(props.item.list).includes(reason)===false?"Click here ↓":reason}</Box>
+      <Card align="center" className="main-card">
+      <Typography theme={theme} align="center" variant="h1" gutterBottom>{props.item.id.toUpperCase()}</Typography>
+      <CardMedia className="card-img"><img src={props.item.img} alt="img" /></CardMedia>
+      <Typography theme={theme} variant="subtitle1" gutterBottom className="reason-block">{(props.item.list).includes(reason)===false?"Click here ↓":reason}</Typography>
    <Button className="button" onClick={showReason}>Find a Reason!</Button>
-  </Box>
+  </Card>
   );
 }
 export default MainCard;
