@@ -6,6 +6,7 @@ import {
   createMuiTheme,
   responsiveFontSizes,
   CardMedia,
+  ThemeProvider,
 } from "@material-ui/core";
 
 let theme = createMuiTheme();
@@ -20,23 +21,20 @@ function MainCard(props) {
   }
   return (
     <Card align="center" className="main-card">
-      <Typography theme={theme} align="center" variant="h1" gutterBottom>
-        {props.item.id.toUpperCase()}
-      </Typography>
-      <CardMedia className="card-img">
-        <img src={props.item.img} alt="img" />
-      </CardMedia>
-      <Typography
-        theme={theme}
-        variant="subtitle1"
-        gutterBottom
-        className="reason-block"
-      >
-        {props.item.list.includes(reason) === false ? "Click here ↓" : reason}
-      </Typography>
-      <Button className="button" onClick={showReason}>
-        Find a Reason!
-      </Button>
+      <ThemeProvider theme={theme}>
+        <Typography align="center" variant="h1" gutterBottom>
+          {props.item.id.toUpperCase()}
+        </Typography>
+        <CardMedia className="card-img">
+          <img src={props.item.img} alt="img" />
+        </CardMedia>
+        <Typography variant="subtitle1" gutterBottom className="reason-block">
+          {props.item.list.includes(reason) === false ? "Click here ↓" : reason}
+        </Typography>
+        <Button className="button" onClick={showReason}>
+          Find a Reason!
+        </Button>
+      </ThemeProvider>
     </Card>
   );
 }
