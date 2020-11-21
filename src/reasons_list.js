@@ -23,7 +23,7 @@ import weekend from "./images/weekend.webp";
 
 const Reasons = [
   {
-    key:1,
+    key: 1,
     id: "cancel a party",
     list: [
       "I'm not feeling well today",
@@ -35,11 +35,12 @@ const Reasons = [
       "Sorry :( ,my dad is ill",
       "I am quarantined",
       "I am tired.",
-      "I drank too much last night"
-    ],img:cancelparty
+      "I drank too much last night",
+    ],
+    img: cancelparty,
   },
   {
-    key:2,
+    key: 2,
     id: "cancel a trip",
     list: [
       "Sorry,I am not feeling well today",
@@ -49,21 +50,23 @@ const Reasons = [
       "Sorry, My mother is ill",
       "Sorry :(,I am ill",
       "Sorry,my dad is ill",
-    ],img:canceltrip
+    ],
+    img: canceltrip,
   },
   {
-    key:3,
+    key: 3,
     id: "chill on a wednesday",
     list: [
       "It's my choice",
       "As I have finished my work on tuesday",
       "I have scored full marks in my exam",
       "My exams are finished",
-      "I have nothing to do"
-    ],img:party
+      "I have nothing to do",
+    ],
+    img: party,
   },
   {
-    key:4,
+    key: 4,
     id: "skip a family function",
     list: [
       "I have my exams on this date",
@@ -73,33 +76,36 @@ const Reasons = [
       "Sorry,I have planned a trip today!!",
       "Sorry, My mom is ill",
       "Sorry:(,I am ill",
-      "Sorry,my dad is ill :("
-    ],img:familyfunction
+      "Sorry,my dad is ill :(",
+    ],
+    img: familyfunction,
   },
   {
-    key:5,
+    key: 5,
     id: "buy a car",
     list: [
       "Peace Of Mind",
       "Easier Finance Schemes",
       "Depreciation Is Taken Care Of",
       "You Can Upgrade In Life",
-      "Buying A Used Car Saves Money"
-    ],img:car
+      "Buying A Used Car Saves Money",
+    ],
+    img: car,
   },
   {
-    key:6,
+    key: 6,
     id: "buy a cat",
     list: [
       "Cats can bathe themselves",
       "Cats will keep your house and yard rodent-free",
       "Cats are low-maintenance and independent",
       "Cats are an eco-friendly pet choice",
-      "Cats can help reduce stress"
-    ],img:cat
+      "Cats can help reduce stress",
+    ],
+    img: cat,
   },
   {
-    key:7,
+    key: 7,
     id: "buy a dog",
     list: [
       "Dogs make Us Laugh",
@@ -111,11 +117,12 @@ const Reasons = [
       "Dogs give Us a sense of purpose",
       "Dogs give us confidence",
       "Dogs make Us Genuinely Happy",
-      "Dogs are faithful and responsible"
-    ],img:dog
+      "Dogs are faithful and responsible",
+    ],
+    img: dog,
   },
   {
-    key:8,
+    key: 8,
     id: "avoid a lecture",
     list: [
       "Tell your professor you got food poisoning",
@@ -130,10 +137,11 @@ const Reasons = [
       "I am ill",
       "I am suffering from fever",
       "I have a family function",
-    ],img:bunk
+    ],
+    img: bunk,
   },
   {
-    key:9,
+    key: 9,
     id: "excuses for incomplete homework",
     list: [
       "I was ill",
@@ -141,11 +149,12 @@ const Reasons = [
       "I had a family function",
       "Had headache",
       "forgot copy at home",
-      "I didn't get the topics you taught in last lecture"
-    ],img:homework
+      "I didn't get the topics you taught in last lecture",
+    ],
+    img: homework,
   },
   {
-    key:10,
+    key: 10,
     id: "live life",
     list: [
       "Life is an invitation to learn. We can learn something from every moment, good or bad. ",
@@ -158,11 +167,12 @@ const Reasons = [
       "Making an effort to deal with problems can make us aware of how strong we really are. Life's challenges don't exist only to upset us—they exist so that we understand ourselves better and get to know who we really are. ",
       "To live is to discover something about ourselves of which we were not aware. ",
       "To live is to look at ourselves in the mirror and discover a message of love in our own eyes.",
-      "To live is to allow ourselves to fall in love—with someone, with something, or with life itself. "
-    ],img:livelife
+      "To live is to allow ourselves to fall in love—with someone, with something, or with life itself. ",
+    ],
+    img: livelife,
   },
   {
-    key:11,
+    key: 11,
     id: "work on sunday",
     list: [
       "to attain success",
@@ -174,11 +184,12 @@ const Reasons = [
       "Getting financial Satisfaction",
       "Planning things for next week",
       "To devote time for responding to pending Emails",
-      "to Work without disturbance"
-    ],img:sunday
+      "to Work without disturbance",
+    ],
+    img: sunday,
   },
   {
-    key:12,
+    key: 12,
     id: "enjoy weekend",
     list: [
       "'If you don’t have a start and an end to a week, then it’s just one long continuous work week, which can be problematic,'says Jonathan Alpert, a psychotherapist and performance coach in New York City and author of the book 'Be Fearless: Change Your Life In 28 Days'.",
@@ -189,11 +200,12 @@ const Reasons = [
       "Maintain a work-life balance",
       "Change your routine",
       "Get your devices a break at least on weekends",
-      "Don’t habituate to oversleeping"
-    ],img:weekend
+      "Don’t habituate to oversleeping",
+    ],
+    img: weekend,
   },
   {
-    key:13,
+    key: 13,
     id: "exercise daily",
     list: [
       "Builds aerobic power.",
@@ -206,11 +218,12 @@ const Reasons = [
       "Improves breathing.",
       "Reduces the risk of arthritis.",
       "Brings about better sleep.",
-      " Improves mood. "
-    ],img:exercise
+      " Improves mood. ",
+    ],
+    img: exercise,
   },
   {
-    key:14,
+    key: 14,
     id: "eat healthy",
     list: [
       " Good Nutrition Improves Well-Being",
@@ -222,11 +235,12 @@ const Reasons = [
       "Reduces The Risk of Chronic Disease",
       "Healthy Eating Positively Affects Your Mood",
       "Increases Focus",
-      "Healthy Diets May Lengthen Your Life"
-    ],img:eathealthy
+      "Healthy Diets May Lengthen Your Life",
+    ],
+    img: eathealthy,
   },
   {
-    key:15,
+    key: 15,
     id: "avoid junkfood",
     list: [
       "Junk food may be the reason behind your fatigue",
@@ -239,11 +253,12 @@ const Reasons = [
       "It can cause kidney disease",
       "It can damage your liver",
       "It can cause type 2 diabetes",
-      "It increases your risk of cancer"
-    ],img:junk
+      "It increases your risk of cancer",
+    ],
+    img: junk,
   },
   {
-    key:16,
+    key: 16,
     id: "love studies",
     list: [
       "Studies show us there is little correlation between salary earned and job satisfaction. ",
@@ -255,11 +270,12 @@ const Reasons = [
       "Studying Gives You Options",
       "Good grades will also allow you access to more courses, and your Matric 80% for a subject might just be the differentiating factor between you and another applicant for a job! ",
       "Studying now allows you to become a better version of yourself in your future.",
-      "Achievement generates self-confidence! "
-    ],img:study
+      "Achievement generates self-confidence! ",
+    ],
+    img: study,
   },
   {
-    key:17,
+    key: 17,
     id: "wear a mask",
     list: [
       "To keep your friends and neighbors safe",
@@ -272,11 +288,12 @@ const Reasons = [
       "To embrace the new normal. Showing yourself in your mask helps normalize it for people who are still uncomfortable with wearing theirs.",
       "Many note that they wear their masks particularly to protect the most vulnerable people in our communities, including the elderly and those with conditions that put them at higher risk.",
       "They reduce viral transmission (if worn correctly).",
-      "They prevent asymptomatic spread."
-    ],img:mask
-    },
+      "They prevent asymptomatic spread.",
+    ],
+    img: mask,
+  },
   {
-    key:18,
+    key: 18,
     id: "avoid ac",
     list: [
       "While it is a relief to walk into a cool room after being out in the hot sun, prolonged use of air conditioners causes more harm than good. ",
@@ -286,11 +303,12 @@ const Reasons = [
       "Air conditioners aggravate skin disorders,” says cosmetologist and skin specialist, Dr Rajan T D.",
       "AC removes water i.e. humidity from indoor air and robs the outer layer of the epidermis of skin. ",
       "When ACs remove the water or humidity content from a room, skin starts shrivelling. Skin also becomes prone to developing creases and wrinkles.",
-      "Sudden shift from one extreme climate to another extreme is very stressful for the body."
-    ],img:ac
+      "Sudden shift from one extreme climate to another extreme is very stressful for the body.",
+    ],
+    img: ac,
   },
   {
-    key:19,
+    key: 19,
     id: "buy a bicycle",
     list: [
       "It’s really, really good for your heart",
@@ -303,11 +321,12 @@ const Reasons = [
       "Live forever",
       "Help out the government of your country",
       "See the global local",
-      "Get to actually know the place you live"
-    ],img:bicycle
+      "Get to actually know the place you live",
+    ],
+    img: bicycle,
   },
   {
-    key:20,
+    key: 20,
     id: "watch tv",
     list: [
       "TV Can Improve Your Self-Control",
@@ -317,11 +336,12 @@ const Reasons = [
       "Educational. TV has many educational benefits for children",
       "Stay Current",
       "Get Cultured.",
-      "Mental Health."
-    ],img:tv
+      "Mental Health.",
+    ],
+    img: tv,
   },
   {
-    key:21,
+    key: 21,
     id: "play outdoor games",
     list: [
       "a reduced risk of myopia, or nearsightedness",
@@ -331,11 +351,12 @@ const Reasons = [
       "reduced stress levels, better moods, and improved concentration",
       "more naturally-attuned sleep rhythms",
       "enhanced opportunities to learn social skills, overcome fears, and develop a lifelong connection with nature.",
-      " it's possible that outdoor play could help reduce the incidence of behavior problems, and help fight obesity."
-    ],img:outdoor
+      " it's possible that outdoor play could help reduce the incidence of behavior problems, and help fight obesity.",
+    ],
+    img: outdoor,
   },
   {
-    key:22,
+    key: 22,
     id: "make new friends",
     list: [
       "Open yourself up to new possibilities.",
@@ -348,9 +369,10 @@ const Reasons = [
       "Fresh start.",
       "Introduce you to more people.",
       "Bring more joy to your life.",
-      "The research has been done and the findings are clear, friendships enhance our lives."
-    ],img:friend
-  }
-]
+      "The research has been done and the findings are clear, friendships enhance our lives.",
+    ],
+    img: friend,
+  },
+];
 
 export default Reasons;
