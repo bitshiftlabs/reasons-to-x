@@ -1,14 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import {
-  Box,
-  Typography,
-  createMuiTheme,
-  responsiveFontSizes,
-  ThemeProvider,
-} from "@material-ui/core";
-
-let theme = createMuiTheme();
-theme = responsiveFontSizes(theme);
+import { Box, Typography } from "@material-ui/core";
 
 function SearchBar(props) {
   const [open, setOpen] = useState(false);
@@ -48,42 +39,40 @@ function SearchBar(props) {
   }
   return (
     <Box className="dropdown">
-      <ThemeProvider theme={theme}>
-        <Typography variant="h4" gutterBottom>
-          <p className="searchBartext">Showing Reasons for-</p>
-          <Box className="control">
-            <Box className="selected-value">
-              <input
-                ref={ref}
-                placeholder={
-                  props.value ? props.value[props.value.id] : props.prompt
-                }
-                value={displayValue()}
-                onChange={(e) => {
-                  setQuery(e.target.value);
-                  props.onChange(null);
-                }}
-                onClick={toggle}
-                onTouchEnd={toggle}
-              />
+      <Typography variant="h4" gutterBottom>
+        <p className="searchBartext">Showing Reasons for-</p>
+        <Box className="control">
+          <Box className="selected-value">
+            <input
+              ref={ref}
+              placeholder={
+                props.value ? props.value[props.value.id] : props.prompt
+              }
+              value={displayValue()}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                props.onChange(null);
+              }}
+              onClick={toggle}
+              onTouchEnd={toggle}
+            />
+          </Box>
+          <Box className={`arrow ${open ? "open" : null}`} />
+        </Box>
+        <Box className={`options ${open ? "open" : null}`}>
+          {filter(props.Reasons).map((e) => (
+            <Box
+              className={`option ${props.value === e ? "selected" : null}`}
+              onClick={() => selectOption(e)}
+              onTouchEnd={() => selectOption(e)}
+              key={e.key}
+            >
+              {" "}
+              {e.id}
             </Box>
-            <Box className={`arrow ${open ? "open" : null}`} />
-          </Box>
-          <Box className={`options ${open ? "open" : null}`}>
-            {filter(props.Reasons).map((e) => (
-              <Box
-                className={`option ${props.value === e ? "selected" : null}`}
-                onClick={() => selectOption(e)}
-                onTouchEnd={() => selectOption(e)}
-                key={e.key}
-              >
-                {" "}
-                {e.id}
-              </Box>
-            ))}
-          </Box>
-        </Typography>
-      </ThemeProvider>
+          ))}
+        </Box>
+      </Typography>
     </Box>
   );
 }
